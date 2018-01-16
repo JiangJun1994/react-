@@ -1,0 +1,39 @@
+{
+  "name": "bekit",
+  "version": "1.0.0",
+  "description": "The easiest way to build a great search experience with elasticsearch",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "pm2 start server.js -i 0"
+  },
+  "keywords": [
+    "elastic",
+    "elasticsearch",
+    "react",
+    "react-dom",
+    "redux",
+    "ui",
+    "component"
+  ],
+  "author": "pixcai<pixcai@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "elastic-builder": "^1.1.3",
+    "elasticsearch-browser": "^13.3.1",
+    "lodash-es": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-vis": "^1.7.9",
+    "redux": "^3.7.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0",
+    "styled-components": "^2.2.3"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.0.14"
+  }
+}
