@@ -1,0 +1,116 @@
+@import "~antd/dist/antd.less";
+
+@menu-dark-bg: transparent;
+@menu-dark-submenu-bg: transparent;
+@card-padding-base: 0;
+@card-padding-wider: 1em;
+@form-item-margin-bottom: 5px;
+@logo-height: 50px;
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #6789f7;
+}
+
+.ant-layout-sider {
+  background-color: #5171e5;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  box-shadow: none;
+}
+
+em {
+  background: yellow;
+  font-weight: bold;
+}
+
+.logo {
+  height: @logo-height;
+  line-height: @logo-height;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  background-color: #3b56ce;
+}
+
+.searchManage{
+  margin-top: 1.5em;
+  margin-left: -23px !important;
+  font-size: 12px;
+}
+
+.headerManager{
+  margin-top:10px;
+}
+.contentManager{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+.contentManager .ant-row{
+  margin-bottom:10px;
+}
+.dataSource{
+  height:100%;
+  margin: 1em;
+}
+.singleDataSearch{
+  margin: 1em 0;
+}
+.gutter-row .ant-btn {
+  margin-right:5px;
+}
+
+.workspace {
+  margin: 0 1em;
+}
+
+.breadcrumb {
+  line-height: @logo-height;
+}
+
+.tabContent {
+  margin: 1em 0;
+}
+
+.tabLine {
+  width: 95%;
+  margin: 5px auto;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.tabLineLast {
+  width: 95%;
+  margin: 5px auto;
+}
+.wordBreak{
+  word-break: break-word;
+}
+.clearfix::after,.clearfix::before{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.chart {
+  width: 90%;
+  margin-top: 20px;
+}
+.dygraph-legend {
+  background-color: rgba(204, 204, 153, 0.75);
+  padding: 10px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #888;
+  // width: 150px;
+}
+.dygraph-title {
+  text-align: left;
+}
+.ellipsis {
+  width: 180px; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
